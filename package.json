@@ -1,0 +1,23 @@
+{
+  "name": "MyContacts",
+  "version": "1.0.0",
+  "description": "API My Contacts",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "main": "src/index.js",
+  "author": "Luis Souza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.14"
+  }
+}
